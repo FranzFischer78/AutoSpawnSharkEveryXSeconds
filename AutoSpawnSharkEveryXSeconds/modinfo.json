@@ -1,0 +1,24 @@
+{
+  "name": "AutoSpawnSharkEveryXSeconds",
+  "author": "FranzFischer78",
+  "description": "Spawns a shark every X seconds",
+  "version": "1.0",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": false,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/autospawnshark/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "input",
+      "name": "SharkSpawnIntervalInput",
+      "text": "Spawn interval",
+      "default": "60",
+      "max": 4,
+      "mode": "Standard"
+    }
+  ]
+}
